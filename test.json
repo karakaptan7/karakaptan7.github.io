@@ -1,0 +1,42 @@
+{
+  "form_name": "DRC Login Form",
+  "form_fields": [
+    {
+      "type": "text",
+      "label": "Username",
+      "name": "username",
+      "required": true,
+      "placeholder": "Username"
+    },
+    {
+      "type": "password",
+      "label": "Password",
+      "name": "password",
+      "required": true,
+      "placeholder": "Password"
+    },
+    {
+      "type": "html",
+      "content": "<a href='#' style='color: red;'>Forgot your password?</a>"
+    },
+    {
+      "type": "button",
+      "label": "Log in",
+      "name": "login_button",
+      "style": "primary",
+      "action": "submit"
+    },
+    {
+      "type": "html",
+      "content": "<p style='text-align: center;'>Or login using your account</p>"
+    },
+    {
+      "type": "html",
+      "content": "<img src='https://cdn-icons-png.flaticon.com/512/732/732221.png' alt='Microsoft Icon' style='width: 40px; margin: 0 auto; display: block;'>"
+    },
+    {
+      "type": "html",
+      "content": "<div style='text-align: center;'><a href='#'>English (en)</a> | <a href='#'>Cookies notice</a></div>"
+    }
+  ]
+}
